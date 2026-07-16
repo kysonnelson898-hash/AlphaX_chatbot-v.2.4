@@ -29,3 +29,74 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AlphaX</title>
+
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+height: 100vh;
+background: #000000;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+}
+
+.logo {
+font-size: 90px;
+font-weight: 900;
+color: #00aaff;
+letter-spacing: 5px;
+text-shadow:
+0 0 10px #00aaff,
+0 0 30px #00aaff,
+0 0 60px #0088ff;
+animation: pulse 2s infinite alternate;
+}
+
+@keyframes pulse {
+from {
+transform: scale(1);
+opacity: 0.8;
+}
+to {
+transform: scale(1.05);
+opacity: 1;
+}
+}
+
+.background-glow {
+position: absolute;
+width: 500px;
+height: 500px;
+background: #0066ff;
+filter: blur(200px);
+opacity: 0.25;
+border-radius: 50%;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="background-glow"></div>
+
+<div class="logo">
+AlphaX
+</div>
+
+</body>
+</html>
