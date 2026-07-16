@@ -12,7 +12,7 @@ messages.innerHTML+=`<p><b>You:</b> ${text}</p>`;
 
 input.value=“”;
 
-const response=await fetch(“https://lil2spookey.app.n8n.cloud/webhook-test/0686124e-02f3-4df3-9bd3-f546747af636”,{
+const response=await fetch(“https://alphaxautomation.app.n8n.cloud/webhook-test/9d6589b0-42ab-44f2-8cf0-933c34e7d237“,{
 
 method:”POST”,
 
